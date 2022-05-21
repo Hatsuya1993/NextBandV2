@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Banner from '../components/Banner'
 import Description from '../components/Description'
 import NavBar from '../components/NavBar'
+import TourDates from '../components/TourDates'
 
 const Home: NextPage = () => {
   return (
@@ -14,6 +15,7 @@ const Home: NextPage = () => {
       <NavBar />
       <Banner />
       <Description />
+      <TourDates />
     </div>
   )
 }
